@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <include
+        android:id="@+id/navbar"
+        layout="@layout/navbar_home"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/navbar_bawah"
+        app:layout_constraintTop_toBottomOf="@id/navbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="8dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="95dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="107dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="123dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="135dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="503dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="527dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="545dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="565dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_eleven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="600dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="615dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_thirteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="632dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_fourteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1010dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1040dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_sixteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1060dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_seventeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1080dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_eightteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1115dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_nineteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1130dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_twenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1147dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_twentyone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1525dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_twentytwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1555dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_twentythree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1575dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_hor_twentyfour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="1595dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_setengah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="6dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="11dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_one_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="50dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_one_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="64dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_one_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="73dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="86dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_two_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="105dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_three_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="194dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_four_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="265dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_five_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="354dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="166dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="246dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="326dp" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="340dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/gd_ver_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="400dp" />
+
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/user_story"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_setengah"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_two">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/asset_story"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_two"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_two">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/liga_story"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_three"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_two">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/asset_story"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_four"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_two">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/liga_story"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_five"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_two">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerita Anda"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_three">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assets"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_two_text"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_three">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liga"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_three_text"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_three">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assets"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_four_text"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_three">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liga"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_five_text"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_three">
+            </TextView>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@drawable/fufufafa_pp"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_four">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fufufafa"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_five"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Putra Mulyono"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_six"
+                android:textSize="10sp">
+            </TextView>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:srcCompat="@drawable/ic_titik_tiga"
+                app:layout_constraintEnd_toEndOf="@id/gd_ver_seven"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_four">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                app:srcCompat="@drawable/post_fufufafa"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_six">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_heart"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_seven">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_comment"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_seven">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_share"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_two"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_seven">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_bookmark"
+                app:layout_constraintEnd_toEndOf="@id/gd_ver_seven"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_seven">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disukai oleh Ikhwan_Hanif"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_eight"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fufufafa"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_nine"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#Proud"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text2"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_nine">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tampilkan 10 komentar lainnya"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_ten"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one">
+            </TextView>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@drawable/assets_ugm_pp"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_eleven">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" @assets_ugm"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_eleven"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sekolah Vokasi Universitas Gadjah Mada"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twelve"
+                android:textSize="10sp">
+            </TextView>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:srcCompat="@drawable/ic_titik_tiga"
+                app:layout_constraintEnd_toEndOf="@id/gd_ver_seven"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_twelve">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_thirteen"
+                app:srcCompat="@drawable/post_asset"></ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_heart"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_fourteen">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_comment"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_fourteen">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_share"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_two"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_fourteen">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_bookmark"
+                app:layout_constraintEnd_toEndOf="@id/gd_ver_seven"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_fourteen">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disukai oleh Ikhwan_Hanif"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_fifteen"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assets UGM"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_sixteen"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#Proud"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_two"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_sixteen">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tampilkan 10 komentar lainnya"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_seventeen"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one">
+            </TextView>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@drawable/liga_trpl_pp"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_eightteen">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liga TRPL"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_eightteen"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menyambut Liga Terpal"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_nineteen"
+                android:textSize="10sp">
+            </TextView>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:srcCompat="@drawable/ic_titik_tiga"
+                app:layout_constraintEnd_toEndOf="@id/gd_ver_seven"
+                app:layout_constraintBottom_toBottomOf="@id/gd_hor_nineteen">
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twenty"
+                app:srcCompat="@drawable/post_liga"></ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_heart"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentyone">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_comment"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentyone">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_share"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_two"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentyone">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_bookmark"
+                app:layout_constraintEnd_toEndOf="@id/gd_ver_seven"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentyone">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disukai oleh Ikhwan_Hanif"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentytwo"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liga TRPL"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentythree"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#Proud"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one_text3"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentythree">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tampilkan 10 komentar lainnya"
+                android:textSize="12sp"
+                app:layout_constraintTop_toTopOf="@id/gd_hor_twentyfour"
+                app:layout_constraintStart_toStartOf="@id/gd_ver_one">
+            </TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gd_navbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="675dp" />
+
+<LinearLayout
+    android:id="@+id/navbar_bawah"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_home_active"
+        android:layout_weight="0.2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_search"
+        android:layout_weight="0.2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_upload"
+        android:layout_weight="0.2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_reels"
+        android:layout_weight="0.2"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_profile"
+        android:layout_weight="0.2"/>
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
